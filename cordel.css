@@ -15,3 +15,8 @@ header {
     height: 250px;
     background-color: aqua;
 }
+
+.header-content {
+    padding: 15px;
+    
+}
