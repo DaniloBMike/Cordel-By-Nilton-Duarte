@@ -1,6 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
 
 }
 
@@ -10,6 +11,7 @@ body {
 }
 
 header {
+    margin: auto;
     position: relative;
     width: auto;
     height: 250px;
