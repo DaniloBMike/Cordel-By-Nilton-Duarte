@@ -11,7 +11,7 @@ body {
 
 header {
     margin: auto;
-    height: 250px;
+    height: 275px;
     background-color: rgb(60, 57, 235);
     display:flex;
     flex-direction: column;
@@ -19,7 +19,25 @@ header {
 }
 
 .header-content {
-    padding: 5%;
     color: aliceblue;
     font-size: 30px;
+    margin: auto;
+}
+
+#h1-title {
+    font-size: 75px;
+}
+
+section {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.default-text {
+    color: aliceblue;
+    font-size: 35px;
+    padding: 20px;
+    
 }
