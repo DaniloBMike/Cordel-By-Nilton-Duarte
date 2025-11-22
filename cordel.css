@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 body {
@@ -26,11 +26,16 @@ header {
 }
 
 #h1-title {
-    font-size: 3.50rem;
+    font-size: 6.5rem;
 }
 
 #h2-milton {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 section {
