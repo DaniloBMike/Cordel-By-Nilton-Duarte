@@ -5,22 +5,16 @@
 }
 
 body {
-    height: 100dvh;
-    width: 100dvw;
+    min-height: 100vh;
 }
 
 header {
-    margin: auto;
-    height: 175px;
     background-color: rgb(60, 57, 235);
     text-align: center;
-    padding: 15px;
 }
     
 .header-content {
     color: aliceblue;
-    font-size: 30px;
-    margin: auto;
 }
 
 #h1-title {
@@ -30,12 +24,31 @@ header {
 
 #h2-milton {
     font-size: 1.3rem;
+    padding: 30px;
 }
 
 a {
     color: aliceblue;
     text-decoration: none;
     font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh;
+    line-height: 2.5rem;
+}
+
+.image-section {
+    background-color: rgba(26, 26, 215, 0.321);
+    color: black;
+}
+
+.normal-section {
+    background-color: white;
 }
 
 .default-text {
@@ -48,17 +61,13 @@ footer {
     width: 100%;
     height: 75px;
     background-color:rgb(60, 57, 235);
-    display:flex;
-    justify-content: center;
+    font-variant: small-caps;
+    display: flex;
     align-items: center;
-    
+    justify-content: center;
 }
 
 #div-footer {
     color: aliceblue;
     font-size: 1.2rem;
-}
-
-a :hover {
-    text-decoration: underline;
 }
