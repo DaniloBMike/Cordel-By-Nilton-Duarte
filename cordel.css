@@ -51,10 +51,9 @@ section {
     background-color: white;
 }
 
-.default-text {
-    color: aliceblue;
-    font-size: 1.8rem;
-    padding: 20px;
+#image-p {
+    background-color: rgba(53, 53, 53, 0.259);
+    width: 600px;
 }
 
 footer {
