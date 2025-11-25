@@ -23,7 +23,7 @@ header {
 }
 
 #h1-title {
-    font-size: 6.4rem;
+    font-size: 6.4em;
     font-variant: small-caps;
 }
 
@@ -43,13 +43,16 @@ a:hover {
 }
 
 section {
-    padding: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 30px;
     line-height: 2.5em;
+    font-size: 3vw;
 }
 
 .image-section {
     background-color: rgb(0, 0, 0);
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .normal-section {
