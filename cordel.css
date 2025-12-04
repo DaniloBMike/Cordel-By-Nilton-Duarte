@@ -55,6 +55,30 @@ section {
     color: rgb(255, 255, 255);
 }
 
+#background-img-01 {
+    background-image: url(pacote-exercicio-cordel/imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#background-img-02 {
+    background-image: url(pacote-exercicio-cordel/imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#background-img-03 {
+    background-image: url(pacote-exercicio-cordel/imagens/new\ cordel-01.jpeg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#background-img-04 {
+    background-image: url(pacote-exercicio-cordel/imagens/new\ cordel-02.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .normal-section {
     background-color: white;
 }
@@ -64,7 +88,7 @@ p {
 }
 
 #image-p {
-    background-color: rgba(53, 53, 53, 0.259);
+    background-color: rgba(0, 0, 0, 0.373);
     width: 600px;
 }
 
