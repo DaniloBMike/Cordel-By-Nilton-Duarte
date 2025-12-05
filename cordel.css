@@ -45,9 +45,17 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding: 30px;
+    
     line-height: 2.5em;
     font-size: 3vw;
+    box-shadow: inset 7px 7px 15px 4px rgba(0, 0, 0, 0.505);
+}
+
+#image-p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.373);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .image-section {
@@ -59,24 +67,32 @@ section {
     background-image: url(pacote-exercicio-cordel/imagens/background001.jpg);
     background-position: right center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #background-img-02 {
     background-image: url(pacote-exercicio-cordel/imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #background-img-03 {
     background-image: url(pacote-exercicio-cordel/imagens/new\ cordel-01.jpeg);
     background-position: right center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #background-img-04 {
     background-image: url(pacote-exercicio-cordel/imagens/new\ cordel-02.jfif);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .normal-section {
@@ -85,11 +101,6 @@ section {
 
 p {
     font-family: 'xilosa';
-}
-
-#image-p {
-    background-color: rgba(0, 0, 0, 0.373);
-    width: 600px;
 }
 
 footer {
