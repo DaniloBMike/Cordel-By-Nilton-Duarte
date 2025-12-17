@@ -83,7 +83,7 @@ section {
     background-image: url(pacote-exercicio-cordel/imagens/new\ cordel-01.jpeg);
     background-position: right center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+   background-attachment: fixed;
     background-size: cover;
 }
 
